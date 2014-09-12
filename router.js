@@ -1,6 +1,6 @@
 Router.map(function() {
   return this.route('discourse_sso', {
-    path: 'forum/login',
+    path: 'discourse/sso',
     onBeforeAction: function() {
       return Session.set('discourse_sso_error', null);
     },
